@@ -9,3 +9,9 @@ export * from './middlewares/current-user';
 export * from './middlewares/error-handler';
 export * from './middlewares/require-auth';
 export * from './middlewares/validate-request';
+
+export * from './nats/class/listener';
+export * from './nats/class/publisher';
+export * from './nats/events/subjects.enum';
+export * from './nats/events/ticket-created.event';
+export * from './nats/events/ticket-updated.event';
