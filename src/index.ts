@@ -16,5 +16,7 @@ export * from './nats/class/publisher';
 export * from './nats/events/subjects.enum';
 export * from './nats/events/ticket-created.event';
 export * from './nats/events/ticket-updated.event';
+export * from './nats/events/order-cancelled.event';
+export * from './nats/events/order-created.event';
 
 export * from './nats/events/types/order-status';
