@@ -4,4 +4,6 @@ export enum Subjects {
 
 	ORDER_CREATED = 'order:created',
 	ORDER_CANCELLED = 'order:cancelled',
+
+	ORDER_EXPIRED = 'order:expired',
 }
